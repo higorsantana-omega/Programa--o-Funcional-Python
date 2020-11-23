@@ -13,6 +13,6 @@ Elas são extremamente independentes, são faceis de mover, refatorar e reorgani
 É quando se associa uma função a uma variável. São passadas como parâmetro e recebida como resultado.
 ```
 funcs = [dobro, quadrado] * 5
-for func, numero in zip(funcs, range(1, 11))
-print(f'O {func.__name__} de {numero} é {func(numero)}')
+for func, numero in zip(funcs, range(1, 11)):
+  print(f'O {func.__name__} de {numero} é {func(numero)}')
 ```
