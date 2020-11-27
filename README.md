@@ -31,3 +31,11 @@ lambda x: x * 2
 
 ## Map
 É uma função para cada elemento
+
+## Filter
+Serve para filtrar uma lista de acordo com um determinado criterio
+Com a função lambda ela retorna se é verdadeiro ou falso
+
+## Reduce
+Reduce retorna uma lista ou um dicionario com base no seu acumulador
+epx = reduce(lambda acumulador, p: acumulador + p[], lista, inicio_acumulador)
