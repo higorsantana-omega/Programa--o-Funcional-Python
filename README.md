@@ -19,3 +19,15 @@ for func, numero in zip(funcs, range(1, 11)):
 
 ## Função de alta ordem
 Recebe outra função como parametro
+
+## Closure
+É uma função dentro de outra função
+
+## Lambda
+É uma função anônima
+```
+lambda x: x * 2
+```
+
+## Map
+É uma função para cada elemento
